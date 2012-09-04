@@ -1,0 +1,37 @@
+#analog_clock {
+	/*cursor: inherit;*/
+}
+
+#analog_clock_container {
+	background: #FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+	/*cursor: -moz-grab;*/
+	padding: 10px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 170px;
+}
+
+.fixed-right {
+	position: absolute;
+	right: 0;
+}
+
+/* Cross-browser method for grab-oriented cursors. */
+
+.grab {
+	cursor: url(../img/cur/grab.cur), url(assets/img/cur/grab.cur), move;
+}
+
+.grabbing {
+	cursor: url(../img/cur/grabbing.cur), url(assets/img/cur/grabbing.cur), move;
+}
+
+.hidden {
+	display: none;
+}
+
+.widget {
+	
+}

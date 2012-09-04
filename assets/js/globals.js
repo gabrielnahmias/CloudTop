@@ -1,0 +1,1 @@
+//window.time = new Date();
